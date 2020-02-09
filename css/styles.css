@@ -1,0 +1,320 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/*  apply a natural box layout model to all elements  */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* ------------- BODY ------------- */
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: #050611; }
+  body p {
+    color: #cabfb7; }
+
+/* ------------- HEADER ------------- */
+header {
+  height: 110px;
+  background-image: url(../images/triangle560.jpg);
+  position: relative; }
+  header h1, header h2 {
+    padding-left: 2%;
+    font-weight: 300;
+    margin-left: 130px; }
+  header figure.logo {
+    position: absolute;
+    bottom: 0;
+    left: 2%; }
+  header h1 {
+    font-size: 1.5rem;
+    padding-top: 35px;
+    color: #659ab1; }
+  header h2 {
+    font-size: .8rem;
+    color: #659ab1; }
+  header ul.social {
+    float: right;
+    font-size: 1.8rem;
+    padding: 1rem; }
+  header ul.social li {
+    list-style-type: none;
+    align-content: center;
+    text-align: center;
+    color: white; }
+  header ul.social li a {
+    font-size: 1.8rem;
+    color: white;
+    background-color: white;
+    padding-left: .5rem;
+    color: white; }
+  header ul.social a {
+    color: #659ab1; }
+  header ul.social a:hover {
+    color: #cabfb7; }
+
+/*  ------------- NAV -------------  */
+nav {
+  background-color: #17203d;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+  nav ul li {
+    float: left;
+    width: 25%;
+    border-right: 1px solid rgba(0, 0, 0, 0.3); }
+  nav ul li:last-child {
+    border-right: none; }
+  nav ul li a {
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    padding: .5rem 0;
+    color: #659ab1;
+    text-decoration: none; }
+  nav ul li.active a {
+    background-color: #4c8097;
+    color: #17203d; }
+  nav ul li a:hover {
+    color: #17203d;
+    background-color: #659ab1; }
+
+/*  ------------- MAIN -------------  */
+main {
+  min-height: 20rem; }
+  main figure.hero {
+    width: 96%;
+    margin-left: 2%;
+    margin-bottom: 1rem; }
+  main figure.hero img {
+    width: 100%; }
+  main div.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 0;
+    margin-left: 1rem; }
+  main div.parent article {
+    margin-left: 2%;
+    margin-right: 1rem; }
+  main div.parent article:nth-child(1) {
+    grid-column: 1 / span 1; }
+  main figure {
+    float: right; }
+  main figure.member {
+    margin: .5rem;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    width: 50%; }
+  main figure.member img {
+    width: 100%; }
+  main h1 {
+    font-size: 2rem;
+    margin: 2rem 0 0 2%;
+    color: #659ab1; }
+  main h2 {
+    font-size: 1.5rem;
+    margin: 2rem 0 0 2%;
+    color: #87b0c2; }
+  main p {
+    line-height: 130%;
+    margin: 0 2%; }
+
+/*  ------------- Lazy Load Gallery -------------  */
+article {
+  margin: 0.5rem 2%; }
+
+article.llgallery figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 62.5%; }
+
+article.llgallery figure img {
+  width: 100%; }
+
+/*  ------------- FOOTER -------------  */
+footer {
+  clear: both;
+  width: 100%;
+  background-color: #17203d; }
+  footer p {
+    text-align: center;
+    color: #659ab1;
+    padding: .75rem 0;
+    font-size: .9rem; }
+  footer p a {
+    color: #659ab1; }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media only screen and (min-width: 35em) {
+  body {
+    background-color: #050611; }
+    body p {
+      color: #cabfb7; }
+
+  /* ------------- HEADER ------------- */
+  header {
+    height: 130px;
+    background-image: url(../images/triangle1024.jpg); }
+    header ul.social {
+      font-size: 2.5rem; }
+    header figure.logo {
+      position: absolute;
+      bottom: 1rem;
+      left: 2%; }
+    header h1 {
+      padding-top: 30px; }
+    header h1, header h2 {
+      padding-left: 2%;
+      font-weight: 300;
+      margin-left: 150px;
+      font-size: 2rem; }
+
+  /* ------------- MAIN ------------- */
+  main {
+    max-width: 100em;
+    margin: 0 auto; }
+    main figure {
+      width: 50%;
+      margin-right: 2%;
+      float: right; }
+    main div.parent {
+      grid-template-columns: 1fr 1fr;
+      margin-left: 1rem; }
+    main div .article:nth-child(1) {
+      grid-column: 1 / span 2;
+      grid-row: 1 / span 2; } }
+@media only screen and (min-width: 64em) {
+  body {
+    background-color: #050611; }
+    body p {
+      color: #cabfb7; }
+
+  /* ------------- HEADER ------------- */
+  header {
+    background-image: url(../images/triangle1600.jpg), url(../images/triange1600.jpg);
+    background-repeat: no-repeat, repeat-x; }
+    header ul.social li a {
+      font-size: 2.5rem; }
+    header h1, header h2 {
+      padding-left: 2%;
+      font-weight: 300;
+      margin-left: 170px;
+      font-size: 2rem; }
+
+  /*  ------------- NAV -------------  */
+  nav ul {
+    margin-left: 2%;
+    border-left: 1px solid rgba(0, 0, 0, 0.3); }
+  nav ul li {
+    width: auto; }
+  nav ul li:last-child {
+    border-right: 1px solid rgba(0, 0, 0, 0.3); }
+  nav ul li a {
+    padding: .5rem 1rem; }
+
+  main {
+    max-width: 100em;
+    margin: 0 auto; }
+    main div.parent {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin-left: 1.75rem; }
+    main div .article:nth-child(1) {
+      grid-column: 1 / span 2;
+      grid-row: 1 / span 2; } }

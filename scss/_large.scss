@@ -1,0 +1,69 @@
+body {
+    background-color: #050611;
+    p {
+        color: #cabfb7;
+    }
+}
+
+
+/* ------------- HEADER ------------- */
+header {
+    
+      ul.social li a {font-size: 2.5rem;}
+    background-image: url(../images/triangle1600.jpg), url(../images/triange1600.jpg);
+    background-repeat: no-repeat, repeat-x;
+    h1, h2 {
+        padding-left: $gutter; 
+        font-weight: $normalWeight;
+        margin-left: 170px;
+        font-size: 2rem;
+    } //end both
+    
+}
+
+
+
+
+
+
+/*  ------------- NAV -------------  */
+nav {
+	ul {
+		margin-left: 2%;
+		border-left: 1px solid rgba(0,0,0,0.3);
+	}
+	ul li {
+		width: auto;
+	}// end li
+	ul li:last-child {border-right: 1px solid rgba(0,0,0,0.3);}
+	ul li a {
+		padding: .5rem 1rem;
+	} // and a
+} // end nav
+
+
+
+main {
+	max-width: 100em;
+    margin: 0 auto;
+
+    
+    div.parent {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+         margin-left: 1.75rem;
+    }
+    
+    
+    div .article:nth-child(1) {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+        
+    }
+    
+    
+   
+
+}
+
+
+
